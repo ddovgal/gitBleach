@@ -1,4 +1,4 @@
-# GitBleach    [![Download](https://img.shields.io/badge/download-%E2%86%93-green.svg)](https://github.com/ddovgal/gitBleach/raw/master/gitBleach.crx)
+# *[Deprecated, due GitHub changed their header's CSS]*GitBleach    [![Download](https://img.shields.io/badge/download-%E2%86%93-green.svg)](https://github.com/ddovgal/gitBleach/raw/master/gitBleach.crx)
 ### Chrome nano-extension for returning back white colored GitHub topbar
 
 **If you dont like this:**
