@@ -1,0 +1,31 @@
+{
+  "name": "GitBleach",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Return GitHub white top bar",
+  "default_locale": "en",
+  
+  "author": "Dmitriy Dovgal",
+  "homepage_url": "https://github.com/ddovgal/gitBleach",
+  
+  "icons": {
+    "16": "bleach_16.png",
+    "32": "bleach_32.png",
+    "48": "bleach_48.png",
+    "64": "bleach_64.png",
+    "128": "bleach_128.png",
+    "256": "bleach_256.png"
+  },
+  "browser_action": {
+    "default_icon": "bleach_32.png"
+  },
+  
+  "permissions": ["tabs", "*://github.com/*"],
+  
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
