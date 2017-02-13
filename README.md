@@ -1,4 +1,4 @@
-# GitBleach
+# GitBleach    ![Download](https://img.shields.io/badge/download-%E2%86%93-green.svg)
 ### Chrome nano-extension for returning back white colored GitHub topbar
 
 **If you dont like this:**
