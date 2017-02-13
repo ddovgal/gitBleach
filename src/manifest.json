@@ -19,11 +19,11 @@
     "default_icon": "bleach_32.png"
   },
   
-  "permissions": ["tabs", "*://github.com/?*"],
+  "permissions": ["tabs", "*://github.com/*"],
   
   "content_scripts": [
     {
-      "matches": ["*://github.com/?*"],
+      "matches": ["*://github.com/*"],
       "js": ["main.js"]
     }
   ]
